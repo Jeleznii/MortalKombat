@@ -1,0 +1,168 @@
+*,
+::before,
+::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,
+ol,
+li{
+    list-style: none;
+}
+
+img{
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body{
+    background-color: #010202;
+    background-image: url(../img/img-body.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100%;
+    line-height: 1;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: 500;
+    font-family: Source Sans Pro;
+}
+
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 1046px;
+    padding: 0 56px;
+    margin: 0 auto;
+    box-sizing: content-box;
+}
+
+/* header */
+
+.header{
+    padding: 56px 0 0 0;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav{
+    display: flex;
+    align-items:center;
+}
+
+.header-logo{
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 116%;
+    color: #FFF;
+    font-family: Roboto;
+}
+
+.header-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    margin: 0 15px 0 0;
+}
+
+/* main block */
+
+.main-block-container{
+    padding: 201px 0 297px 0;
+}
+
+.main-info-block{
+    max-width: 460px;
+}
+
+.mortal-lable{
+    margin: 0 0 18px 0;
+}
+
+.mortal-list-items{
+    display: flex;
+    margin: 0 0 9px 0;
+}
+
+.mortal-list-item{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #E5E5E5;
+    opacity: 0.4;
+}
+
+.mortal-list-item:not(:last-child){
+    margin: 0 15px 0 0;
+}
+
+.item-border{
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    padding: 1px 5px;
+}
+
+.mortal-text{
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 140%;
+    margin: 0 0 36px 0;
+}
+
+.buttons-block{
+    display: flex;
+}
+
+.main-block-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-command{
+    width: 183px;
+    height: 44px;
+    background: #EA6E20;
+    border-radius: 6px;
+    color: #FFF;
+    margin: 0 15px 0 0;
+}
+
+.button-trailer{
+    width: 203px;
+    height: 44px;
+    background-color: #2F2F2F;
+    border-radius: 6px;
+    color: #FFF;
+    background-image: url(../img/play.svg);
+    background-position:  10% 50%;
+    background-repeat: no-repeat;
+}
+
+/* adaptation for 375 x 507 */
